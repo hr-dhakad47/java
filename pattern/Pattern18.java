@@ -12,10 +12,10 @@ public class Pattern18 {
             for (int col=1; col<=n; col++){
                 int space = row>1 || row <= n/2 ? row*2-2 : row;
                 for(int s=0; s<space; s++){
-                System.out.print(" ");
+                System.out.print("*");
                 }
                
-                    System.out.print("*");
+                    System.out.print(" ");
 
                 }
                 System.out.println();

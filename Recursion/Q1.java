@@ -1,6 +1,6 @@
-package Recurssion;
-//program to print number from 1-n
-public class Q2 {
+package Recursion;
+//program to print number from n-1
+public class Q1 {
     public static void main(String[] args) {
         fun(5);
     }
@@ -8,7 +8,7 @@ public class Q2 {
         if(n==0){
         return ;
         }
-        fun(n-1);
         System.out.println(n);
+        fun(n-1);
     } 
 }
