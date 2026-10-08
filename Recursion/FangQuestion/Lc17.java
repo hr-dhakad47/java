@@ -22,15 +22,15 @@ public class Lc17 {
     // }
 
 
-        /*    Returning Results via Recursion
+        //     Returning Results via Recursion
 
-        Instead of printing in the base case, each function call is responsible for:
+        // Instead of printing in the base case, each function call is responsible for:
 
-        1.Creating its own local ArrayList<String> ans.
+        // 1.Creating its own local ArrayList<String> ans.
 
-        2.Collecting all combinations returned by its child calls using ans.addAll(...).
+        // 2.Collecting all combinations returned by its child calls using ans.addAll(...).
 
-        3.Returning its accumulated ans list to its parent caller.*/
+        // 3.Returning its accumulated ans list to its parent caller.
 
         static ArrayList<String> phonePad(String p, String up){
         if(up.isEmpty()){
