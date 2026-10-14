@@ -3,7 +3,7 @@ package Recursion.questions;
 public class Fibo {
     public static void main(String[] args) {
 
-        System.out.println(fibo(1));
+        System.out.println(fibo(6));
     }
     static int fibo(int n){
         if(n<2){

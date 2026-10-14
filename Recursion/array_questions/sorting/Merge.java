@@ -67,13 +67,6 @@ public class Merge {
         }
         int mid = s+(e-s)/2;
 
-        // When splitting an array in Java, Arrays.copyOfRange(originalArray, startIndex, endIndex) is a 
-        // built-in helper method that creates and returns a brand-new array containing elements from the 
-        // original array.
-        // The most critical rule to remember about this function is how it handles indices:
-
-        // startIndex (inclusive): The element at this index is included.
-        // endIndex (exclusive): The element at this index is NOT included (it stops right before this index).
         
         inplaceMergesort(arr, s, mid);
 

@@ -1,6 +1,6 @@
 package Recursion;
 
-public class Sum {
+public class RecSum {
     public static void main(String[] args) {
         System.out.println(sum(5));
     }

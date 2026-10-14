@@ -1,3 +1,4 @@
+package Recursion.questions;
 import java.util.Scanner;
 
 public class Revnum {
