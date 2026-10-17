@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.questions;
 
 public class RecSum {
     public static void main(String[] args) {

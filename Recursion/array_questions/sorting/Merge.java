@@ -2,8 +2,10 @@ package Recursion.array_questions.sorting;
 
 import java.util.Arrays;
 
+import Recursion.string.Stream;
+
 public class Merge {
-    public static void main(Skipchar[] args) {
+    public static void main(Stream[] args) {
         int[] arr = {1,2,3,4,36,57,7,544,3,43,5,6,765,63};
         inplaceMergesort(arr, 0, arr.length-1);
         // arr = mergesort(arr);

@@ -1,0 +1,1 @@
+find . -type f -name "*.java" -not -path "./class/*" -not -path "./.git/*" -print0 | xargs -0 -r javac -d class

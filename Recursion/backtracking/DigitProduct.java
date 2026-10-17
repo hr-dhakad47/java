@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.backtracking;
 
 public class DigitProduct {
 

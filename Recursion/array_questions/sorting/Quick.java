@@ -3,7 +3,7 @@ package Recursion.array_questions.sorting;
 import java.util.Arrays;
 
 public class Quick {
-    public static void main(Skipchar[] args) {
+    public static void main(String[] args) {
         int[] arr = {12,3,56,565,34,5,7,5,44,34,3454,76,8,8,675,3,3,43,65,7,8,7};
         quicksort(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));

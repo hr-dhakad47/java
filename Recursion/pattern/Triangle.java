@@ -1,4 +1,4 @@
-package Recursion.array_questions;
+package Recursion.pattern;
 
 public class Triangle {
     public static void main(String[] args) {
