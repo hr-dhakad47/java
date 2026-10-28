@@ -1,4 +1,4 @@
-package Recursion.easy;
+package Recursion.questions;
 //program to print number from n-1
 public class Q1 {
     public static void main(String[] args) {

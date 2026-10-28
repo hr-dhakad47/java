@@ -1,4 +1,4 @@
-package Recursion.easy;
+package Recursion.questions;
 
 public class DigitSum {
     public static void main(String[] args) {
